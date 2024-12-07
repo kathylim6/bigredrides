@@ -17,7 +17,7 @@ def verify_credentials(username, password):
     
     return possible_user.verify_password(password), possible_user
 
-def create_user(name, username, password):
+def create_user(name, username, password, balance):
     possible_user = get_user_by_username(username)
     if possible_user is not None:
         return False, possible_user

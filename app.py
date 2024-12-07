@@ -43,7 +43,7 @@ def failure_response(message, code=404):
 
 @app.route("/")
 def base_route():
-    return 'Hello Kathy!'
+    return 'Hello Arsh!'
 
 @app.route("/register/", methods=["POST"])
 def register_account():
