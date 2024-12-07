@@ -43,7 +43,7 @@ def failure_response(message, code=404):
 
 @app.route("/")
 def base_route():
-    return 'Hello Arsh!'
+    return 'Hello Seojin!'
 
 @app.route("/register/", methods=["POST"])
 def register_account():
@@ -128,10 +128,8 @@ def get_trips():
     current_date = datetime.now().date()
     trips = []
     for t in Trips.query.all():
-        if t.date < current_date:
-            t.setCompleted()
-        else:
-            trips.append(t.serialize())
+        if t.date > current_date:
+           trips.append(t.serialize())
 
     return json.dumps({"trips":trips}), 200
 
