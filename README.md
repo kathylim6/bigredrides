@@ -13,7 +13,7 @@ Big Red Rides lets you easily share long-distance rides before and after breaks 
 For Drivers: Post your trip to any city, set your estimated total gas costs, and invite riders to join you.
 For Riders: Find available trips, book a seat, and split the cost with the driver.
 
-Save money, meet new people, and make your journey to and from Cornell easier. Join CarShare today!
+Save money, meet new people, and make your journey to and from Cornell easier. Join Big Red Rides today!
 
 
 How our app meets the requirements:
